@@ -400,3 +400,81 @@ header{
     right: 20px;
     transform: rotate(90deg);
 }
+#testimonials{
+   background: #000;
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+}
+.testimonials__otzyv{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 150px;
+    text-transform: uppercase;
+}
+.testimonials__author{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 40px;
+    color: #b2b2b2;
+}
+.testimonials__author span{
+    font-weight: 600;
+}
+
+#contact{
+    padding: 100px 0;
+    text-align: center;
+}
+.marginauto{
+    margin: 0 auto;
+}
+.contact__name{
+   margin-bottom: 0;
+    text-align: left;
+}
+.contact__name label span{
+    color: red;
+}
+.input{
+    width: 100%;
+    height: 40px;
+}
+.input:focus{
+    outline: none;
+}
+.textarea{
+    width: 100%;
+    height: 165px;
+}
+.textarea:focus{
+    outline: none;
+}
+.button{
+    width: 100%;
+    height: 40px;
+    background: #fcac45;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+}
+.contact__button{
+    float: right;
+    margin-right: -15px;
+}
+
+
+
+footer{
+    background: #000;
+    color: #b2b2b2;
+    padding: 40px 0;
+}
+.footer__all_rights{
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.footer__all_rights span{
+    font-weight: 600;
+}
