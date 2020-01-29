@@ -25,6 +25,7 @@ It's me     | Summary
 ------------ | -------------
                                    | 6. - [x] Free speaking of russian
 
+
 # Progrmming stuff
 * **CSS**
 * **HTML**
