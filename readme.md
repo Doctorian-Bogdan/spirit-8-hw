@@ -12,5 +12,10 @@ As Kanye West said:
 
  It's me     | Summary
 ------------ | -------------
-(/images/IMG.jpg)     | 
-:man_technologist:    | 
+     ![it's me](/images/IMG.jpg) Format: ![Alt Text](url)    | 1. - [x] Web developer
+     :man_technologist:    | 1. - [x] Good knowledge of english
+                             |1. - [ ] Chief cooker
+                              |1. - [ ] Knowledge of php
+                                |1. - [x] Knowledge of html
+                                  |1. - [ ] Practise in google
+                                    |1. - [ ] Live in Kyrgyzstan
