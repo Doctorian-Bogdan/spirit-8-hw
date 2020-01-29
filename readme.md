@@ -9,13 +9,22 @@
 
 It's me     | Summary
 ------------ | -------------
-![it's me](/images/IMG.jpg) Format: ![Alt Text](url)    | 1. - [x] Web developer
-                                  :man_technologist:    | 2. - [x] Good knowledge of english
-                                                        | 2. - [ ] Chief cooker
-                                                        | 3. - [ ] Knowledge of php
-                                                        | 4. - [x] Knowledge of html
-                                                        | 5. - [ ] Practise in google
-                                                        | 6. - [ ] Live in Kyrgyzstan
+![it's me](/images/IMG.jpg)    | 1. - [x] Web developer
+------------ | -------------
+           :man_technologist:    | 2. - [x] Good knowledge of english
+------------ | -------------
+                                   | 2. - [ ] Chief cooker
+------------ | -------------
+                                   | 3. - [ ] Knowledge of php
+------------ | -------------
+                                   | 4. - [x] Knowledge of html
+------------ | -------------
+                                   | 5. - [ ] Practise in google
+------------ | -------------
+                                   | 6. - [ ] Live in Kyrgyzstan
+------------ | -------------
+                                   | 6. - [x] Free speaking of russian
+
 # Progrmming stuff
 * **CSS**
 * **HTML**
