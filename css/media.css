@@ -31,5 +31,15 @@
     .show__menu{
         right: 0;
     }
+    .menu__item{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .menu__item:before{
+        bottom: -5px;
+    }
+    .menu__item:after{
+        bottom: -5px;
+    }
 
 }
