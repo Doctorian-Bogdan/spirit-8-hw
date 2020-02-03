@@ -496,9 +496,14 @@ header{
 .input:focus{
     outline: none;
 }
+.input{
+    padding: 5px 10px;
+}
 .textarea{
     width: 100%;
     height: 165px;
+    padding: 10px;
+
 }
 .textarea:focus{
     outline: none;
