@@ -216,10 +216,15 @@ header{
     padding: 10px 15px;
     border: 1px solid #616161;
     border-radius: 3px;
+    transition: .4s;
 }
 .about__button img{
     padding-right:  5px;
     margin: auto 0;
+}
+.about__button:hover{
+    background: black;
+    color: #616161;
 }
 .margin{
     margin-top: 120px;
@@ -349,7 +354,8 @@ header{
     font-size: 18px;
     text-transform: uppercase;
     float: left;
-    padding-right: 51%;
+    padding-right: 50%;
+    padding-left: 15px;
 }
 
 .portfolio__tabs input{
@@ -515,7 +521,7 @@ header{
     text-transform: uppercase;
     color: white;
     font-weight: 600;
-    padding: 15px 30px;
+    padding: 15px 60px;
 }
 .contact__button{
     float: right;
@@ -532,7 +538,27 @@ footer{
 .footer__all_rights{
     font-size: 12px;
     margin-bottom: 0;
+    margin-top: 15px;
 }
 .footer__all_rights span{
     font-weight: 600;
+}
+.footer-item{
+    display: flex;
+    list-style: none;
+    color: #6c6c6c;
+    float: right;
+    margin-top: 15px;
+}
+.footer-item  a {
+    display: flex;
+    color: #b2b2b2;
+    border: 2px solid #b2b2b2;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
 }
