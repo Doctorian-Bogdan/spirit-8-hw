@@ -154,7 +154,7 @@ header{
     height: 15px;
     width: 2px;
     position: absolute;
-    right: 23px;
+    right: 22px;
     top: 13px;
 }
 .hero__icon:after{
@@ -162,7 +162,7 @@ header{
     height: 10px;
     width: 10px;
     position: absolute;
-    right: 19px;
+    right: 18px;
     transform: rotate(45deg);
     top: 17px;
     border-bottom: 1.5px solid white;
@@ -202,8 +202,6 @@ header{
   list-style-type: none ;
     font-size: 16px;
     margin-bottom: 25px;
-    display: flex;
-    justify-content: left;
     align-items: center;
 }
 .list__item span{
@@ -249,7 +247,7 @@ header{
     content: "";
     background: #fcac45;
     height: 5px;
-    width: 170px;
+    width: 120px;
     position: absolute;
     bottom: -25px;
     left: 0;
@@ -259,7 +257,7 @@ header{
 .title:after{
     content: "";
     background: #b37b33;
-    height: 5px;
+    height: 4px;
     width: 85px;
     position: absolute;
     bottom: -40px;
@@ -272,6 +270,15 @@ header{
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team__image-img{
+    width: 100%;
+    height: auto;
+    transform: scale(1.5);
 }
 .team__content{
     display: flex;
@@ -355,7 +362,7 @@ header{
     text-transform: uppercase;
     float: left;
     padding-right: 50%;
-    padding-left: 15px;
+
 }
 
 .portfolio__tabs input{
@@ -373,11 +380,11 @@ header{
 .tab2l{
     border-right: 1px solid black;
     border-left: 1px solid black;
-
+    line-height: 1;
 }
 .tab3l{
     border-right: 1px solid black;
-
+    line-height: 1;
 }
 
 .tab{
@@ -391,6 +398,7 @@ header{
 }
 .margint25{
     margin-top: 25px;
+    padding: 0px 25px 0px 0px;
 }
 .margint40{
     margin-top: 40px;
@@ -521,7 +529,7 @@ header{
     text-transform: uppercase;
     color: white;
     font-weight: 600;
-    padding: 15px 60px;
+    padding: 10px 60px;
 }
 .contact__button{
     float: right;
@@ -560,5 +568,10 @@ footer{
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 20px;
+}
+.footer-item a:hover{
+    background: #fcac45;
+    color: black;
+    border: 2px solid black;
 }
