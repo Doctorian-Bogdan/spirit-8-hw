@@ -1,0 +1,35 @@
+@media (max-width: 992px) {
+    .mobile__btn{
+        display: flex;
+        z-index: 5;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        background: #fccc45;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        z-index: 4;
+        right: -100%;
+        transition: .7s;
+    }
+    .show__mobile__btn span:before{
+        transform: rotate(45deg);
+        transition: .3s;
+    }
+    .show__mobile__btn span:after{
+        transform: rotate(-45deg);
+        transition: .3s;
+    }
+    .show__mobile__btn span{
+        background: transparent;
+    }
+    .show__menu{
+        right: 0;
+    }
+
+}
