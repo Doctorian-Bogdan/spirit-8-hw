@@ -43,3 +43,8 @@
     }
 
 }
+@media (max-width: 768px){
+    .margint25{
+        padding: 0;
+    }
+}
